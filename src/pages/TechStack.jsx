@@ -78,9 +78,9 @@ const TechStack = () => {
             <h4 className="text-white font-bold mb-1 uppercase tracking-tight">Need help with these?</h4>
             <p className="text-gray-500 text-xs">Our mentors are available 24/7 during the hackathon for technical support.</p>
           </div>
-          <button className="bg-[#e99b63] text-black text-[10px] font-black px-6 py-3 rounded-xl uppercase tracking-widest hover:brightness-110 transition-all active:scale-95 whitespace-nowrap">
+          <Link to='/documentation' className="bg-[#e99b63] text-black text-[10px] font-black px-6 py-3 rounded-xl uppercase tracking-widest hover:brightness-110 transition-all active:scale-95 whitespace-nowrap">
             View Documentation
-          </button>
+          </Link>
         </div>
 
         <div className="mt-12 text-center">
