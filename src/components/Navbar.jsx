@@ -1,17 +1,17 @@
-import React, { useState } from 'react'; // Added useState
+import React, { useState } from 'react'; 
 import 'boxicons/css/boxicons.min.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    // 1. Create a state to track if the menu is open
+    
     const [isOpen, setIsOpen] = useState(false);
 
-    // 2. Function to toggle state
+    
     const toggleMobileMenu = () => {
         setIsOpen(!isOpen);
     };
 
-    // 3. Function to explicitly close the menu
+    
     const closeMenu = () => {
         setIsOpen(false);
     };
@@ -21,7 +21,7 @@ const Navbar = () => {
             <h1 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500" className="text-3xl md:text-4xl lg:text-5xl font-light m-0">
-                BUILD-A-THON
+               CODEX BUILD
             </h1>
 
             {/* Desktop nav element */}

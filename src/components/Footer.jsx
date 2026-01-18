@@ -44,9 +44,9 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Ultra-Short Bottom Line */}
+      
       <div className="max-w-7xl mx-auto mt-10 pt-4 border-t border-white/[0.02] flex justify-between items-center opacity-30">
-        <p className="text-[7px] text-white uppercase tracking-[0.4em]">© 2025 BUILD-A-THON</p>
+        <p className="text-[7px] text-white uppercase tracking-[0.4em]">© 2026 BUILD-A-THON</p>
         <p className="text-[7px] text-white uppercase tracking-[0.2em]">All Systems Nominal</p>
       </div>
     </footer>
